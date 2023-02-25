@@ -1,11 +1,12 @@
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 :root {
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Passion One', cursive;
-    --font3: 'Sriracha', cursive;
+    --font3: 'Satisfy', cursive;
     --c1:#d6d8db;
     --c2:#9ea0a6;
     --c3:rgba(53, 59, 71, 0.5);
@@ -80,10 +81,12 @@ section > p {
 }
 
 section.n  {
-    background-color:var(--c5);
-    color: white;
-    text-shadow:2px 1px 0px black;
-    padding: 70px;
+    background-image: url(imagens/imagens/backgroundtxt.jpeg);
+    background-size: cover;
+    color: black;
+    font-weight: bold;
+
+    padding: 25px;
     padding-left: 10px;
 }
 
@@ -99,14 +102,12 @@ section.i  {
 section.n > p {
     display: inline-block;
     padding: 5px;
-    text-shadow:2px 1px 0px black;
-    background-color: var(--c3);
 } 
 
 section.i >p {
     display: inline-block;
     padding: 5px;
-    text-shadow:2px 1px 0px black;
+    text-shadow:1px 1px 1px black;
 }
 
 section#i1 {
