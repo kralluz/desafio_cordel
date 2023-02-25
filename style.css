@@ -129,6 +129,12 @@ section#i3 {
     padding-left: 10px;
 }
 
+section#i4 {
+    background-image:url(imagens/imagens/background004.jpg);
+    padding: 70px;
+    padding-left: 10px;
+}
+
 section.i >p {
     background-color:var(--c5);
     padding: 10px;
