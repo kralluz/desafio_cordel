@@ -8,9 +8,9 @@
     --font3: 'Sriracha', cursive;
     --c1:#d6d8db;
     --c2:#9ea0a6;
-    --c3:#6e7177;
+    --c3:rgba(53, 59, 71, 0.5);
     --c4:#393b40;
-    --c5:#2c2d31;
+    --c5:rgba(45, 46, 49,0.8);
 
 }
 
@@ -22,8 +22,8 @@
 
 html, body {
     min-height: 100vh;
-    background-color: #303030;
-    color:aliceblue;
+    background-color: white;
+    color:black;
     font-family: var(--font1);
 }
 
@@ -70,35 +70,68 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
-    font-size: 3.5vw;
+    font-size: 2vw;
+    
 }
 
 section > p {
     padding-bottom: 1.5em;
+    border-radius: 10px;
 }
 
 section.n  {
     background-color:var(--c5);
     color: white;
-    padding-left: 43px;
-    padding-bottom: 0px;
+    text-shadow:2px 1px 0px black;
+    padding: 70px;
+    padding-left: 10px;
 }
 
 section.i  {
     background-color:var(--c3);
     color: white;
+    background-position: right center;
+    background-size: cover;
+    box-shadow:inset 2px 13px 18px black;
+    background-attachment: fixed;
+}
+
+section.n > p {
+    display: inline-block;
+    padding: 5px;
+    text-shadow:2px 1px 0px black;
+    background-color: var(--c3);
+} 
+
+section.i >p {
+    display: inline-block;
+    padding: 5px;
+    text-shadow:2px 1px 0px black;
 }
 
 section#i1 {
-    background-image: url(imagens/imagens/background001.jpg);   
+    background-image: url(imagens/imagens/background001.jpg);
+    padding: 70px;
+    padding-left: 10px;
+
 }
 
 section#i2 {
     background-image: url(imagens/imagens/background002.jpg);
+    padding: 70px;
+    padding-left: 10px;
+
+}
+
+section#i3 {
+    background-image:url(imagens/imagens/background003.jpg);
+    padding: 70px;
+    padding-left: 10px;
 }
 
 section.i >p {
-    width: 600px;
     background-color:var(--c5);
     padding: 10px;
+    width: auto;
+    
 }
